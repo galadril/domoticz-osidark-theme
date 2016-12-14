@@ -22,7 +22,9 @@ https://github.com/basvdijk/domoticz-osidark-theme
 }
 
 .modal {
-    margin: auto;
+    margin: auto;    
+	background-color: #212121;
+	color:white;
 }
 
 
@@ -333,7 +335,6 @@ body table#itemtabledoubleicon tr td:first-child + td + td + td + td + td + td +
     margin: 10px;
 }
 
-
 .btnstyle3,
 .btnstyle3-dis,
 .btnstyle3-sel {
@@ -343,7 +344,6 @@ body table#itemtabledoubleicon tr td:first-child + td + td + td + td + td + td +
 
 .btnstyle3 {
 	background: #009688;
-    
 }
 
 .btnstyle3-dis {
@@ -468,6 +468,11 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td img
     background: #00bcd4;
 }
 
+.ui-widget {
+    font-family: Segoe UI,Arial,sans-serif;
+    font-size: 1.0em;
+}
+
 .ui-widget-overlay {
 	background: #171719;
 	opacity: .9;
@@ -577,7 +582,7 @@ table.display tr.odd.row_selected td {
 
 .modal-footer, .btn.btn-primary,
 .modal-footer .btn + .btn {
-    background: #009688;
+    background: #212121;
     border-radius: 3px;
 }
 
