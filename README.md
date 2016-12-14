@@ -25,9 +25,24 @@ Create a Domoticz theme with:
 
 3) In Domoticz goto Setup -> Settings -> Theme and pick OsiDark
 
-or ssh to your Domoticz folder and execute:
+or ssh to your Domoticz folder and for the latest release execute:
 
-`mkdir www/styles/osi-dark && wget https://raw.githubusercontent.com/basvdijk/domoticz-osidark-theme/master/dist/OsiDark/custom.css -o www/styles/osi-dark/custom.css`
+`mkdir www/styles/osi-dark && wget https://raw.githubusercontent.com/basvdijk/domoticz-osidark-theme/master/dist/OsiDark/custom.css -O www/styles/osi-dark/custom.css`
+
+#### Latest development version
+
+for the latest development version:
+
+`mkdir www/styles/osi-dark && wget https://raw.githubusercontent.com/basvdijk/domoticz-osidark-theme/master/src/OsiDark/custom.css -O www/styles/osi-dark/custom.css`
+
+to update to the latest development version:
+`wget https://raw.githubusercontent.com/basvdijk/domoticz-osidark-theme/master/src/OsiDark/custom.css -O www/styles/osi-dark/custom.css`
+
+### I still see the default theme :(
+
+1) Make sure you've cleared your browser cache
+
+2) Make sure you've clicked apply settings
 
 ### Your css uses the most ugly selectors possible
 
