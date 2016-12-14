@@ -51,18 +51,27 @@ h2 {
     padding-top: 20px;
 }
 
+.brand img {
+    display: none;
+}
+
 .brand h1 {
-	color: #3E2712;
+	color: #FFF;
+	margin: -10px 0 0 0;
+	font-family: "Open Sans";
+    text-transform: uppercase;
 }
 
 .brand h2 {
     font-family: courier;
     font-style: normal;
-    color: #5A4F4F;
+    color: #FFF;
     font-size: 11px;
     margin-top: -6px;
     width: 300px;
-    margin-left: 0px;
+	margin: -5px 0 0 0;
+	font-family: "Open Sans";
+    text-transform: uppercase;
 }
 
 .container-fluid {
