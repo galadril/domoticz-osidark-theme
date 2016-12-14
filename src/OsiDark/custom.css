@@ -490,12 +490,11 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td img
     position: relative;
 }
 
-
 .text
 {
 	margin: auto;
-    
 }
+
 .colpick {
     margin: 10px -5px -1px -2px;
     overflow: hidden;
