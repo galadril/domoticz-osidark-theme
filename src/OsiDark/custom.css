@@ -205,10 +205,10 @@ body table#itemtabledoubleicon tr td:first-child + td + td + td + td + td + td +
 	position: static;
 }
 
-.navbar-inverse .navbar-inner {
-	background-color: #00bcd4;
+.ui-dialog .ui-dialog-buttonpane button {
+    border-radius: 3px;
 }
-
+	
 .navbar .nav li a,
 .navbar .nav li a:hover,
 .navbar .nav .current_page_item > a,
@@ -465,7 +465,7 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td img
 
 .ui-widget-header {
     border: none;
-    background: #757575;
+    background: #00bcd4;
 }
 
 .ui-widget-overlay {
@@ -478,11 +478,24 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td img
 	border-radius: 0;
 }
 
-.ui-dialog {
-	padding: 0;
+.ui-widget-content {
+	background: white;
+	border: 1px solid #CCC;
+	color: black;
+	position: relative;
+	margin: 15px auto;
 }
 
-
+.ui-dialog-buttonpane,
+.ui-dialog {
+	padding: 0;
+	background: #212121;
+	border: 1px solid #212121;
+	color: white;
+	position: relative;
+	margin: 15px auto;    
+	overflow: visible; !important
+}
 
 .ui-dialog-titlebar .ui-button {
 	background: transparent;
@@ -496,6 +509,7 @@ table.display tr.even.row_selected td,
 table.display tr.odd.row_selected td {
     background-color: #ffb715;
 }
+
 
 /*** NOTIFICATIONS ***/
 
@@ -537,7 +551,14 @@ table.display tr.odd.row_selected td {
     padding: 10px 20px;
 }
 
-
+.ui-dialog-content
+{
+	color:white;
+}
+	
+.navbar-inverse .navbar-inner {
+	background-color: #00bcd4;
+}
 
 /*** MODAL ***/
 .modal {
@@ -712,6 +733,7 @@ tr.odd {
         margin-top: 6px;
 	}
 
+
 }
 
 @media (min-width: 980px) {
@@ -809,12 +831,8 @@ tr.odd {
 		background: transparent;
 	}
 
-	.ui-dialog .ui-dialog-buttonpane button {
-    	border-radius: 3px;
-	}
-
+	
 }
-
 
 @media (min-width: 1200px) {
 
@@ -840,6 +858,25 @@ tr.odd {
 }
 
 
+/*** SCROLLBAR ***/
+::-webkit-scrollbar {
+      width: 15px;
+}
 
+::-webkit-scrollbar-track {
+      background-color: #757575;
+} 
+ 
+::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.2); 
+} 
+ 
+::-webkit-scrollbar-button {
+      background-color: #212121;
+} 
+ 
+::-webkit-scrollbar-corner {
+      background-color: #212121;
+}
 
 
