@@ -491,15 +491,21 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td img
 	margin: 15px auto;
 }
 
-.ui-dialog-buttonpane,
 .ui-dialog {
-	padding: 0;
-	background: #212121;
-	border: 1px solid #212121;
-	color: white;
-	position: relative;
-	margin: 15px auto;    
-	overflow: visible; !important
+    background: #212121 none repeat scroll 0 0;
+    border: 1px solid #212121;
+    color: white;
+    margin: 15px auto;
+    overflow: visible;
+    padding: 0;
+    position: absolute;
+    left: 40%;
+    top: 121px;
+}
+
+.ui-dialog-buttonpane {
+    background: #212121 none repeat scroll 0 0;
+    position: relative;
 }
 
 .ui-dialog-titlebar .ui-button {
