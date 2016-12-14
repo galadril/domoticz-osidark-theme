@@ -52,10 +52,10 @@ I completely agree. Unfortunately Domoticz does not provide classes on the eleme
 ## Screenshots
 
 ### Mobile
-![mobile](screenshots/mobile.png)
+![mobile](https://cloud.githubusercontent.com/assets/14561640/21173459/18f0d670-c1d8-11e6-95ab-7d0761e1fd79.png)
 
 ### Tablet
 ![tablet](screenshots/tablet.png)
 
 ### Desktop
-![desktop](screenshots/desktop.png)
+![desktop](https://cloud.githubusercontent.com/assets/14561640/21173462/1ee7582e-c1d8-11e6-93de-4f19d868f735.png)
