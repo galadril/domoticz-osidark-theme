@@ -509,7 +509,7 @@ table.display tr.odd.row_selected td {
     top: 0 !important;
     right: 0 !important;
     left: 0 !important;
-    background-color: rgba(49, 109, 81, 0.96);
+    background-color: #00BCD4;
     margin: 0 auto !important;
     width: 100% !important;
 }
