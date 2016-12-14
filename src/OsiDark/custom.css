@@ -554,6 +554,7 @@ table.display tr.odd.row_selected td {
 	border: none;
 }
 
+.modal-footer, .btn.btn-primary,
 .modal-footer .btn + .btn {
     background: #009688;
     border-radius: 3px;
