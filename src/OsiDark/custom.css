@@ -178,7 +178,7 @@ body table#itemtablesmalldoubleicon tr td:first-child + td + td + td {
 }
 
 #lastupdate {
-	margin-top: 25px !important;
+	margin-top: 10px !important;
 }
 
 
@@ -189,7 +189,7 @@ body table#itemtablesmalldoubleicon tr td:first-child + td + td + td + td,
 body table#itemtablenostatus tr td:first-child + td + td + td + td,
 body table#itemtablesmall tr td:first-child + td + td + td + td {
 	margin-top: 5px;
-	margin-left: 65px;
+	margin-left: auto;
 }
 
 body table#itemtabledoubleicon tr td:first-child + td + td + td img {
@@ -207,10 +207,10 @@ body table#itemtabledoubleicon tr td:first-child + td + td + td + td + td + td +
 	position: static;
 }
 
-.ui-dialog .ui-dialog-buttonpane button {
-    border-radius: 3px;
+.navbar-inverse .navbar-inner {
+	background-color: #AFAC9C;
 }
-	
+
 .navbar .nav li a,
 .navbar .nav li a:hover,
 .navbar .nav .current_page_item > a,
@@ -272,6 +272,13 @@ body table#itemtabledoubleicon tr td:first-child + td + td + td + td + td + td +
     background-color: #61A9A0;
     border: 1px solid #61A9A0;
     color: white;
+}
+
+/*** DROPDOWN MENUS ***/
+
+.navbar .pull-right > li > .dropdown-menu .dropdown-menu, 
+.navbar .nav > li > .dropdown-menu.pull-right .dropdown-menu {
+	border-radius: 0;
 }
 
 .sub-tabs > li > a.btn-danger {
@@ -379,10 +386,6 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td img
 	margin-top: 10px;
 }
 
-.dropdown.open {
-	background-color: #009688;
-}
-
 .navbar .nav .dropdown-menu {
 	background-color: #0097a7;
 	background-image: none;
@@ -424,7 +427,7 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td img
 }
 
 #appversion:after {
-    content: " (OsiDark v0.3)";
+    content: " (OsiDark theme)";
 }
 
 #copyright {
@@ -437,7 +440,7 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td img
 }
 
 #copyright p:after {
-    content: " | theme OsiDark v0.3";
+    content: " | OsiDark theme";
 }
 
 
@@ -483,6 +486,7 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td img
 	border-radius: 0;
 }
 
+
 .ui-widget-content {
 	background: white;
 	border: 1px solid #CCC;
@@ -510,6 +514,20 @@ body table#itemtablenostatus tr td:first-child + td + td + td + td + td + td img
 
 .ui-dialog-titlebar .ui-button {
 	background: transparent;
+}
+
+.dimslider.ui-slider {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+17,ffc254+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ffffff 17%, #ffc254 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #ffffff 17%,#ffc254 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #ffffff 17%,#ffc254 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffc254',GradientType=1 ); /* IE6-9 */
+}
+
+.dimslider .ui-slider-range {
+	border-radius: 0;
+    background: transparent;
 }
 
 .ui-slider-handle {
